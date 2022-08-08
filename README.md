@@ -1,3 +1,9 @@
+# How to use
+1. Copy **"Correlation.ipynb"** to google drive
+2. Open the file with google colab
+3. Chage x and y value by your data
+4. Run the code
+
 # Correlation
 In this repository, four famous correlation algorithms have been implemented. Pearson, spearman, Chatterjee, and MIC correlation algorithm implemented.
 
@@ -5,7 +11,7 @@ In statistics, correlation or dependence is any statistical relationship, whethe
 
 Correlations are useful because they can indicate a predictive relationship that can be exploited in practice. For example, an electrical utility may produce less power on a mild day based on the correlation between electricity demand and weather. In this example, there is a causal relationship, because extreme weather causes people to use more electricity for heating or cooling. However, in general, the presence of a correlation is not sufficient to infer the presence of a causal relationship (i.e., correlation does not imply causation).
 
-Four Collation algorithm Pearson, spearman, Chatterjee, and MIC immplemented in **"Corelation.ipynb"**.
+Four Collation algorithm Pearson, spearman, Chatterjee, and MIC implemented in **"Corelation.ipynb"**.
 
 # Pearson correlation
 
@@ -44,4 +50,29 @@ Chatterjee CC (CCC: Chatterjee, 2021), as a function of ranks correlation, is a 
 
 ![Chatterjee Correlation plots](https://user-images.githubusercontent.com/94763669/183488524-1cbd9a76-e105-4fa0-a8db-098059078cc4.png)
 
+# Maximal Information Coefficient(MIC) correlation
+
+In statistics, the maximal information coefficient (MIC) is a measure of the strength of the linear or non-linear association between two variables X and Y.
+
+The MIC belongs to the maximal information-based nonparametric exploration (MINE) class of statistics. In a simulation study, MIC outperformed some selected low power tests, however concerns have been raised regarding reduced statistical power in detecting some associations in settings with low sample size when compared to powerful methods such as distance correlation and Heller–Heller–Gorfine (HHG). Comparisons with these methods, in which MIC was outperformed, were made in Simon and Tibshirani and in Gorfine, Heller, and Heller. It is claimed that MIC approximately satisfies a property called equitability which is illustrated by selected simulation studies It was later proved that no non-trivial coefficient can exactly satisfy the equitability property as defined by Reshef et al., although this result has been challenged. Some criticisms of MIC are addressed by Reshef et al. in further studies published on arXiv.
+
+### how to use in python: https://minepy.readthedocs.io/en/latest/python.html
+
+### Formula:
+![MIC](https://user-images.githubusercontent.com/94763669/183489891-59a5acb8-4528-467b-9d63-b267f17a4313.jpeg)
+
+### Value of some of correlation algorithms for different shapes:
+![1_AAGEtBhIR4kGit_fuzWyAg](https://user-images.githubusercontent.com/94763669/183490127-da915dbe-e8a2-4720-9975-37016a42eb90.jpeg)
+
+
+# Useful links:
+- Chatterjee Correlation:
+https://www.sciencedirect.com/science/article/pii/S0169136822002621#:~:text=Chatterjee%20CC%20(CCC%3A%20Chatterjee%2C,assumptions%20for%20the%20variables'%20distributions.
+- Chatterjee Correlation article:https://arxiv.org/abs/1909.10140?source=techstories.org
+- install minepy on python: https://minepy.readthedocs.io/en/latest/python.html
+- Implementing Pearson correlation with scipy: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html
+- Implementing Spearman's correlation with scipy: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html
+- Implementing Pearson and Spearman Coefficients in python: https://realpython.com/numpy-scipy-pandas-correlation-python/
+- Efficient test for nonlinear dependence of two continuous variables : 
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0697-7#:~:text=The%20two%20most%20common%20non,statistical%20dependence%20between%20two%20variables 
 
