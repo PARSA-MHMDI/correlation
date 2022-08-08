@@ -17,3 +17,31 @@ In statistics, the Pearson correlation coefficient, the Pearson product-moment c
 ### Value of Peason correlation for different set of (x,y):
 ![Correlation_examples2](https://user-images.githubusercontent.com/94763669/183485763-f91d9565-2609-4fe6-a94f-93601775526b.svg)
 
+# Spearman’s correlation
+
+In statistics, Spearman's rank correlation coefficient or Spearman's ρ, named after Charles Spearman, is a nonparametric measure of rank correlation (statistical dependence between the rankings of two variables). It assesses how well the relationship between two variables can be described using a monotonic function.
+
+The Spearman correlation between two variables is equal to the Pearson correlation between the rank values of those two variables; while Pearson's correlation assesses linear relationships, Spearman's correlation assesses monotonic relationships (whether linear or not). If there are no repeated data values, a perfect Spearman correlation of +1 or −1 occurs when each of the variables is a perfect monotone function of the other.
+
+Intuitively, the Spearman correlation between two variables will be high when observations have a similar (or identical for a correlation of 1) rank (i.e. relative position label of the observations within the variable: 1st, 2nd, 3rd, etc.) between the two variables, and low when observations have a dissimilar (or fully opposed for a correlation of −1) rank between the two variables.
+
+### Formula:
+![spearman_s_rank_correlation_coefficient](https://user-images.githubusercontent.com/94763669/183487903-75eaa8fa-6e7a-46de-a878-348a4159504b.svg)
+
+### Pearson vs Speqrman's:
+![300px-Spearman_fig1 svg](https://user-images.githubusercontent.com/94763669/183487771-fde2508c-1725-4d58-837c-fca1879a39bc.png)
+
+
+# Chatterjee Correlation
+Chatterjee CC (CCC: Chatterjee, 2021), as a function of ranks correlation, is a new correlation method with a very simple and understandable formula, and quick computing, but significantly robust to deal with the aforementioned data types without having any assumptions for the variables’ distributions.
+
+**Article:** : https://arxiv.org/abs/1909.10140?source=techstories.org
+
+### Formula:
+![Chatterjee Correlation Formula](https://user-images.githubusercontent.com/94763669/183488356-1cc7d03f-b337-400c-a8df-ec58f060aa0e.png)
+
+### Value of Chatterjee correlation for different set of (x,y):
+
+![Chatterjee Correlation plots](https://user-images.githubusercontent.com/94763669/183488524-1cbd9a76-e105-4fa0-a8db-098059078cc4.png)
+
+
